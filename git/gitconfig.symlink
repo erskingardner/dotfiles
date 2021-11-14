@@ -16,7 +16,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+	editor = code
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -37,3 +37,6 @@
 	ff = only
 [remote "origin"]
 	prune = true
+[user]
+	name = Jeff Gardner
+	email = erskingardner@gmail.com
