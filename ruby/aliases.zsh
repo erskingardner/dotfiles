@@ -1,3 +1,4 @@
-alias sc='script/console'
-alias sg='script/generate'
-alias sd='script/destroy'
+alias rs='rails s'
+alias bd='./bin/dev' # fire up the dev server
+alias rc='rails c'
+alias bi='bundle install'

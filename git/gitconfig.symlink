@@ -16,7 +16,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-	editor = code
+	editor = code --wait
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -40,3 +40,5 @@
 [user]
 	name = Jeff Gardner
 	email = erskingardner@gmail.com
+[init]
+	defaultBranch = main
