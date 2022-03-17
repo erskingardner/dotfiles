@@ -7,10 +7,9 @@ AwesomePrint.irb!
 
 IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
-
 IRB.conf[:PROMPT_MODE] = :SIMPLE
-
 IRB.conf[:AUTO_INDENT] = true
+IRB.conf[:USE_AUTOCOMPLETE] = false
 
 class Object
   # list methods which aren't in superclass
@@ -42,7 +41,7 @@ def cop
 end
 
 def me
-  User.find_by_login(ENV['USER'].strip)
+  u = User.find_by_email(ENV['MY_USER_EMAIL'].strip)
 end
 
 def r
