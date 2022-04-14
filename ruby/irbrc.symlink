@@ -41,7 +41,8 @@ def cop
 end
 
 def me
-  u = User.find_by_email(ENV['MY_USER_EMAIL'].strip)
+  u = User.find_by_email(ENV['MY_USER_EMAIL'].strip) ||
+      User.find_by_email('jeff@praxeo.app')
 end
 
 def r
