@@ -39,6 +39,6 @@
 	prune = true
 [user]
 	name = Jeff Gardner
-	email = erskingardner@gmail.com
+	email = 202880+erskingardner@users.noreply.github.com
 [init]
 	defaultBranch = main
